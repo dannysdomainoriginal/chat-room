@@ -3,7 +3,7 @@ import outputMessage from "./output-message";
 import Qs from "qs";
 
 // Connect to backend
-const socket: Socket = io(import.meta.env.VITE_SOCKET);
+const socket: Socket = io(import.meta.env.DEV ? import.meta.env.VITE_SOCKET : undefined );
 const chatForm = document.getElementById("chat-form") as HTMLFormElement;
 const chatMessages = document.querySelector(".chat-messages") as HTMLDivElement
 
