@@ -1,6 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import path from "path";
+import fs from "fs"
 import http, { createServer } from "http";
 import { fileURLToPath } from "url";
 import { Server } from "socket.io";
