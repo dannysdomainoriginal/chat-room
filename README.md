@@ -1,7 +1,9 @@
 # ChatCord – Realtime Chat Room App
 
 A realtime chat room application built with **Node.js**, **Express**, **Socket.io**, and **MongoDB**. Users can join rooms, send messages, and see live updates of other users in the room. Messages are persisted in MongoDB and previous messages are loaded when a user joins a room.  
-URL = [https://dannysdomain-chatroom.onrender.com](https://dannysdomain-chatroom.onrender.com)
+URL = [https://dannysdomain-chatroom.onrender.com](https://dannysdomain-chatroom.onrender.com)  
+
+26th December 2025 - Successfully upgraded UI using AI
 
 **Please contribute to the project 💪**
 
