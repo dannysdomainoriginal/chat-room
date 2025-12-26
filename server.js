@@ -71,6 +71,9 @@ io.on("connection", (socket) => {
     }
   });
 
+  // * TODO: Make a nicer frontend using CHATGPT
+  // send all your code to it for better understanding
+
   // Listen for join room
   socket.on("joinRoom", async ({ username, room }) => {
     const user = await User.create({
